@@ -1,0 +1,16 @@
+{
+    "name": "Firebase Rules Full Width",
+    "version": "1.0.1",
+    "manifest_version": 2,
+    "description": "Extension that expands the Firebase Rules block width to 100%",
+    "icons": {
+    },
+    "content_scripts": [
+      {
+        "matches": [
+            "*://*/*/firestore/rules"
+        ],
+        "css": ["style.css"]
+      }
+    ]
+  }

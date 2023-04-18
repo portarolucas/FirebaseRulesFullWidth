@@ -1,0 +1,10 @@
+div[mat-single-grid]{
+    max-width: 100% !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
+
+div[mat-cell="16"]{
+    max-width: 100% !important;
+    width: 100% !important;
+}
